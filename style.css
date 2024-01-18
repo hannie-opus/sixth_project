@@ -1,0 +1,38 @@
+img {
+  width: 4rem;
+  height: 2rem;
+  float: left;
+}
+nav {
+  border: 1px solid blue;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  background-color: white;
+}
+.menu_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  background-color: white;
+}
+.menu_list li {
+  cursor: pointer;
+}
+.menu_list li:hover {
+  color: darkblue;
+}
+.logo_sec {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  background-color: white;
+}
+
+body {
+  background-color: aqua;
+}
